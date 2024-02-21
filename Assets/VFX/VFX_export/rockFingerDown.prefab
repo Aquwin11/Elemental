@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3263604648697116278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3263604648697116273}
+  m_Layer: 0
+  m_Name: rockFingerDown
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3263604648697116273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263604648697116278}
+  m_LocalRotation: {x: 0.05862718, y: 0.71822166, z: -0.693203, w: -0.01379112}
+  m_LocalPosition: {x: -0.0006, y: 0.0056, z: 0.0064}
+  m_LocalScale: {x: 0.030737046, y: 0.0291422, z: 0.045692604}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6936452108495284334}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -263.789, y: -290.878, z: -107.239}
+--- !u!1001 &3263604646879697535
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3263604648697116273}
+    m_Modifications:
+    - target: {fileID: 5551140997813694993, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551140997813694993, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551140997813694993, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551140997813694993, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551140997813694993, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551140997813694993, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000000218557
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551140997813694993, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551140997813694993, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551140997813694993, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551140997813694993, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551140997813694993, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551140997813954941, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+        type: 3}
+      propertyPath: m_Name
+      value: Rock Type1 04 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d61b4746eb429642bbe49d6abfedfd4, type: 3}
+--- !u!4 &6936452108495284334 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5551140997813694993, guid: 9d61b4746eb429642bbe49d6abfedfd4,
+    type: 3}
+  m_PrefabInstance: {fileID: 3263604646879697535}
+  m_PrefabAsset: {fileID: 0}
